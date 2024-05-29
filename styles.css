@@ -1,0 +1,82 @@
+
+body {
+    background:url('img/anh2.jpg');
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+/* tieu de */
+h1 {
+    color:white;
+    text-align: center;
+    margin-top:10px;
+}
+
+#contactList-search th, #contactList-search td {
+    padding: 10px;
+    border: 1px solid white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#contactList-search th {
+    background-color: white;
+    color: black;
+}
+
+/* form nhap */
+#contact-form {
+}
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+#contact-form input[type="tel"],
+#contact-form input[type="url"],
+#contact-form textarea {
+    width: 45%;
+    padding: 8px;
+    border:1px;
+    border-radius: 4px;
+    margin-top: 1px;
+    margin-bottom: 8px;
+}
+/* nut them */
+#contact-form input[type="submit"]{
+    height: 35px;
+    width: 100px;
+    padding: 10px;
+    border-radius: 4px;
+    background-color:white;
+    color: black;
+    cursor: pointer;
+    border: none;
+}
+#btn-save {
+    height: 35px;
+    width: 100px;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    border: none;
+}
+
+#contact-list{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+th, td {
+    border: 1px;
+    padding: 10px;
+    text-align: left;
+}
+th{
+    background-color: white;
+    color: black;
+}
+td{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
